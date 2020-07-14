@@ -1,0 +1,11 @@
+{
+  "ignore": ["README.md", ".gitignore", ".github"],
+  "commands": {
+    "Preserve to IPFS": "npx truffle preserve ./app --ipfs",
+    "Migrate": "npx truffle preserve ./stuff --filecoin"
+  },
+  "hooks": {
+    "post-unpack": "npm install"
+  }
+}
+
