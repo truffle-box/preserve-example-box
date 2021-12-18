@@ -1,7 +1,7 @@
 {
-  "ignore": ["README.md", ".gitignore", ".github"],
+  "ignore": ["README.md", ".gitignore", ".github", ".git", "brave-shot.png", "brave-url.png"],
   "commands": {
-    "Preserve to IPFS": "npx truffle preserve ./app --ipfs",
+    "Preserve to IPFS": "npx truffle preserve ./app --ipfs --environment infura",
     "Migrate": "npx truffle preserve ./stuff --filecoin"
   },
   "hooks": {
