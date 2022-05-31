@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "@truffle/error": "^0.1.0",
     "@truffle/preserve-fs": "^0.2.7",
     "@truffle/preserve-to-filecoin": "^0.2.9",
     "@truffle/preserve-to-ipfs": "^0.2.8"
