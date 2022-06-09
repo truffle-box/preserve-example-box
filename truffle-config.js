@@ -8,6 +8,7 @@ module.exports = {
   },
 
   plugins: [
+    "@truffle/preserve-fs",
     "@truffle/preserve-to-ipfs",
     "@truffle/preserve-to-filecoin"
   ]

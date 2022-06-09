@@ -1,5 +1,7 @@
 {
-  "devDependencies": {
-    "truffle": "^5.2.0-preserves.8"
+  "dependencies": {
+    "@truffle/preserve-fs": "^0.2.7",
+    "@truffle/preserve-to-filecoin": "^0.2.9",
+    "@truffle/preserve-to-ipfs": "^0.2.8"
   }
 }
